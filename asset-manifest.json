@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/moveotask/static/css/main.e3cfbd7f.chunk.css",
-    "main.js": "/moveotask/static/js/main.589808af.chunk.js",
-    "main.js.map": "/moveotask/static/js/main.589808af.chunk.js.map",
+    "main.js": "/moveotask/static/js/main.4ad2631d.chunk.js",
+    "main.js.map": "/moveotask/static/js/main.4ad2631d.chunk.js.map",
     "runtime-main.js": "/moveotask/static/js/runtime-main.b80b30d7.js",
     "runtime-main.js.map": "/moveotask/static/js/runtime-main.b80b30d7.js.map",
     "static/js/2.1bbc0bad.chunk.js": "/moveotask/static/js/2.1bbc0bad.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.b80b30d7.js",
     "static/js/2.1bbc0bad.chunk.js",
     "static/css/main.e3cfbd7f.chunk.css",
-    "static/js/main.589808af.chunk.js"
+    "static/js/main.4ad2631d.chunk.js"
   ]
 }
