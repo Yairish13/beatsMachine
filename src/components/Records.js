@@ -45,6 +45,7 @@ const RecordDiv = styled.div`
   border-radius: 25px;
   position: relative;
   bottom: 50px;
+  color:#bdb76b;
 `;
 
 export default Records;
