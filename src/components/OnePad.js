@@ -3,7 +3,7 @@ import styled, { keyframes } from "styled-components";
 import { StoreContext } from "../StoreContext";
 import { useObserver } from "mobx-react";
 
-function OnePad({ beat }) {
+function OnePad({beat}) {
   const [clicked, setClicked] = useState("off");
   const store = React.useContext(StoreContext);
   const selectedBeat = useRef(null);
@@ -61,7 +61,7 @@ function OnePad({ beat }) {
           {icon}
         </IconDiv>
       )}
-      <audio ref={selectedBeat} src={beat.data} autoPlay={false}></audio>
+      <audio ref={selectedBeat} src={beat.data}></audio>
     </PadDiv>
   ));
 }

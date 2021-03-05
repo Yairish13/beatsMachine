@@ -13,7 +13,7 @@ function Records() {
     setRecords(store.recordedUrl);
     if (store.recordedUrl) {
       selectedAudio.current.load();
-      selectedAudio.current.loop = true;
+      selectedAudio.current.loop = false;
     }
   }, [store.recordedUrl]);
 
