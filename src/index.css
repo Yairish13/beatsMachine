@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  overflow-x: hidden; 
+  overflow-y: hidden; 
+  background-color: #F0E68C
+  ;
+
+}
