@@ -84,7 +84,7 @@ const PadDiv = styled.div`
   border-color: ${(props) =>
     props.isPlayed === "play" && props.clicked === "on" ? "green" : "red"};
   :hover {
-    background-color: yellow;
+    background-color: #BDB76B;
   }
 `;
 const IconDiv = styled.div`

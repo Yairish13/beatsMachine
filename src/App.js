@@ -7,6 +7,7 @@ import { observer } from "mobx-react";
 import { StoreContext } from "./StoreContext";
 import { SiBeatsbydre } from "react-icons/si";
 import Records from "./components/Records";
+import background from './background.jpg'
 
 configure({
   useProxies: "always",
@@ -15,7 +16,7 @@ configure({
 function App() {
   const store = React.useContext(StoreContext);
   return (
-    <>
+    <WholeAppDiv>
       <HeaderDiv>
         {" "}
         &#9839; &#9834; Yair's{" "}
@@ -27,12 +28,11 @@ function App() {
         {store.isRecorded === "off" ? <Records /> : ""}
         <AllPads />
       </AppDiv>
-    </>
+    </WholeAppDiv>
   );
 }
 
 const AppDiv = styled.div`
-  background: #F0E68C;
   height: 100vh;
   width: 100vw;
   text-align: center;
@@ -43,13 +43,17 @@ const AppDiv = styled.div`
   align-items: center;
   position: relative;
 `;
+const WholeAppDiv = styled.div`
+  background-image: url(${background});
+  background-size: cover; /* Resize the background image to cover the entire container */
+`
 
 const HeaderDiv = styled.div`
   text-align: center;
   justify-content: center;
   font-size: 45px;
   width: 100vw;
-  background-color: #FFE4B5;
+  color: white;
 `;
 
 export default observer(App);

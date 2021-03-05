@@ -7,6 +7,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
+
 ReactDOM.render(
   <div>
       <StoreContext.Provider
@@ -17,6 +18,7 @@ ReactDOM.render(
   document.getElementById("root"),
   
 )
+
 ;
 
 reportWebVitals();
