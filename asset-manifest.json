@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/moveotask/static/css/main.e3cfbd7f.chunk.css",
+    "main.js": "/moveotask/static/js/main.589808af.chunk.js",
+    "main.js.map": "/moveotask/static/js/main.589808af.chunk.js.map",
+    "runtime-main.js": "/moveotask/static/js/runtime-main.b80b30d7.js",
+    "runtime-main.js.map": "/moveotask/static/js/runtime-main.b80b30d7.js.map",
+    "static/js/2.1bbc0bad.chunk.js": "/moveotask/static/js/2.1bbc0bad.chunk.js",
+    "static/js/2.1bbc0bad.chunk.js.map": "/moveotask/static/js/2.1bbc0bad.chunk.js.map",
+    "static/js/3.2b5c4150.chunk.js": "/moveotask/static/js/3.2b5c4150.chunk.js",
+    "static/js/3.2b5c4150.chunk.js.map": "/moveotask/static/js/3.2b5c4150.chunk.js.map",
+    "index.html": "/moveotask/index.html",
+    "static/css/main.e3cfbd7f.chunk.css.map": "/moveotask/static/css/main.e3cfbd7f.chunk.css.map",
+    "static/js/2.1bbc0bad.chunk.js.LICENSE.txt": "/moveotask/static/js/2.1bbc0bad.chunk.js.LICENSE.txt",
+    "static/media/120_future_funk_beats_25.5eb417fc.mp3": "/moveotask/static/media/120_future_funk_beats_25.5eb417fc.mp3",
+    "static/media/120_stutter_breakbeats_16.37c82282.mp3": "/moveotask/static/media/120_stutter_breakbeats_16.37c82282.mp3",
+    "static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3": "/moveotask/static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3",
+    "static/media/FUD_120_StompySlosh.27bdc145.mp3": "/moveotask/static/media/FUD_120_StompySlosh.27bdc145.mp3",
+    "static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3": "/moveotask/static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3",
+    "static/media/MazePolitics_120_Perc.2d08c654.mp3": "/moveotask/static/media/MazePolitics_120_Perc.2d08c654.mp3",
+    "static/media/PAS3GROOVE1.03B.f77c6da4.mp3": "/moveotask/static/media/PAS3GROOVE1.03B.f77c6da4.mp3",
+    "static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3": "/moveotask/static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3",
+    "static/media/background.44c3644e.jpg": "/moveotask/static/media/background.44c3644e.jpg",
+    "static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3": "/moveotask/static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b80b30d7.js",
+    "static/js/2.1bbc0bad.chunk.js",
+    "static/css/main.e3cfbd7f.chunk.css",
+    "static/js/main.589808af.chunk.js"
+  ]
+}
