@@ -18,6 +18,9 @@ function ControlRow() {
   const handleStop = () => {
     return store.setIsAll("none") && store.setIsPlayed("stop");
   };
+  const handlePause = () => {
+    return store.setIsAll("none") && store.setIsPlayed("pause");
+  };
 
   //the function that responsible for start recording
   const startRecording = () => {
@@ -119,12 +122,11 @@ function ControlRow() {
         )}
         {store.isPlayed === "pause" ? (
           <AiFillPauseCircle
-            //   onClick={() => handlePause()}
             style={{ cursor: "pointer", fontSize: "35px", color: "lightGrey" }}
           />
         ) : (
           <AiFillPauseCircle
-            onClick={() => store.setIsPlayed("pause")}
+            onClick={() => handlePause()}
             style={{ cursor: "pointer", fontSize: "35px" }}
           />
         )}
