@@ -108,19 +108,19 @@ function ControlRow() {
       <ControlDiv>
         {store.isPlayed === "play" ? (
           <AiFillPlayCircle
-            onClick={() => store.setIsPlayed('play')}
-            style={{ cursor: "pointer", fontSize: "35px", color: "red" }}
+            onClick={() => store.setIsPlayed("play")}
+            style={{ cursor: "pointer", fontSize: "35px", color: "#4169E1" }}
           />
         ) : (
           <AiFillPlayCircle
-            onClick={() => store.setIsPlayed('play')}
+            onClick={() => store.setIsPlayed("play")}
             style={{ cursor: "pointer", fontSize: "35px" }}
           />
         )}
         {store.isPlayed === "pause" ? (
           <AiFillPauseCircle
             //   onClick={() => handlePause()}
-            style={{ cursor: "pointer", fontSize: "35px", color: "red" }}
+            style={{ cursor: "pointer", fontSize: "35px", color: "lightGrey" }}
           />
         ) : (
           <AiFillPauseCircle
@@ -139,16 +139,21 @@ function ControlRow() {
             style={{ cursor: "pointer", fontSize: "35px" }}
           />
         )}
-        <TiThSmallOutline
-          onClick={() => store.setIsAll("all")}
-          style={{ cursor: "pointer", fontSize: "35px" }}
-        />
+        {store.isAll === "all" ? (
+          <TiThSmallOutline
+            onClick={() => store.setIsAll("all")}
+            style={{ cursor: "pointer", fontSize: "35px",color:"#FFD700" }}
+          />
+        ) : (
+          <TiThSmallOutline
+            onClick={() => store.setIsAll("all")}
+            style={{ cursor: "pointer", fontSize: "35px" }}
+          />
+        )}
         {store.isRecorded === "on" ? (
           <RecordingButtonDiv>
             {" "}
-            <MdKeyboardVoice
-              style={{ color: "red" }}
-            />
+            <MdKeyboardVoice style={{ color: "red" }} />
           </RecordingButtonDiv>
         ) : (
           <MdKeyboardVoice
@@ -195,7 +200,7 @@ const ControlDiv = styled.div`
   align-items: center;
   width: 350px;
   height: 45px;
-  background-color: #BDB76B;
+  background-color: #bdb76b;
   border-radius: 25px;
   position: relative;
   bottom: 80px;
@@ -207,7 +212,7 @@ const BeatRateDiv = styled.div`
   align-items: center;
   width: 100px;
   height: 30px;
-  background-color: #BDB76B;
+  background-color: #bdb76b;
   border-radius: 25px;
   margin-top: 25px;
   position: relative;
