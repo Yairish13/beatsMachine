@@ -1,3 +1,4 @@
 <h1>Welcome to Yair's beat machine!!</h1>
 <h2>Check it out - https://yairish13.github.io/moveotask/</h2>
-<img width="959" alt="overview" src="https://user-images.githubusercontent.com/67858239/110143263-b868ff80-7ddf-11eb-9bc6-e2ac1fb2f272.png">
+Take a quick taste of the app
+![apoapa](https://user-images.githubusercontent.com/67858239/110168941-96cc4000-7e00-11eb-8537-f89b59a18684.gif)
