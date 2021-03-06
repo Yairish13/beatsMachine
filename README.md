@@ -4,6 +4,8 @@
 </h3>
 <h4>First line -control the beat rate</h4>
 <h4><Second line - control buttons/h4>
+  
+  
 ![apoapa](https://user-images.githubusercontent.com/67858239/110169013-b82d2c00-7e00-11eb-9add-d8fca33a3e3a.gif)
 
 Mobile version
